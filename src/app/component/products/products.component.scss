@@ -11,7 +11,13 @@
 }
 
 .item img {
+    display: center;
     width: 64px;
+}
+
+.btnn{
+    border: none;
+    background-color: white;
 }
 
 .item {
@@ -19,11 +25,12 @@
     text-align: center;
 }
 
-.item a:hover {
+h6{
     color: blue;
 }
 
 .card {
+    width: 8.99cm;
     padding: 20px;
     margin: 50px;
 }
@@ -31,7 +38,9 @@
 .card img {
     width: 200px;
     height: 200px;
+    margin-left: 50px;
     margin-bottom: 15px;
+    
     transition: 0.3s ease-in-out;
 }
 
