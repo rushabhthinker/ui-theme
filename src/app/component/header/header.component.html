@@ -2,20 +2,14 @@
     <div class="navbar navbar-dark bg-primary shadow-sm">
         <div
             class="navbar-brand align-item-center d-flex">
-            <i style="font-size: 40px;" class="fas fa-shipping-fast shipping-fast">&nbsp;
-                
-            </i>
             <button routerLink="/products" class="btn">
+                <i style="font-size: 40px; color: white;" class="fas fa-shipping-fast shipping-fast">&nbsp;</i>
                 <strong style="font-size: 30px; color: white;">Flipkart</strong>
             </button>
             <div class="form-group">
                 <input type="text" class="form-control" [(ngModel)]="searchTerm" (keyup)="search($event)" placeholder="Search Products">
+                <span class="fas fa-search search-icon"></span>
             </div>
-            <span class="fas fa-search search-icon"></span>
-            
-            
-
-
         </div>
         <button routerLink="cart" class="btn btn-primary">
             <i style="font-size: 30px;" class="fas fa-cart-plus"></i>

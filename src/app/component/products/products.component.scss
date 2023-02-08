@@ -20,13 +20,17 @@
     background-color: white;
 }
 
-.item {
+.item{
     margin: 0px 15px;
     text-align: center;
 }
 
-h6{
+.btnn:hover{
     color: blue;
+    
+}
+.btnn:active{
+    color: red;
 }
 
 .card {
